@@ -29,9 +29,30 @@
 		6712DA4B2D83891F0051CBB4 /* LocationSpooferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationSpooferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		67AD7F612D83939400A16C77 /* Exceptions for "LocationSpoofer" folder in "LocationSpooferTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				deerfield.gpx,
+			);
+			target = 6712DA402D83891F0051CBB4 /* LocationSpooferTests */;
+		};
+		67AD7F622D83939400A16C77 /* Exceptions for "LocationSpoofer" folder in "LocationSpooferUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				deerfield.gpx,
+			);
+			target = 6712DA4A2D83891F0051CBB4 /* LocationSpooferUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6712DA332D83891E0051CBB4 /* LocationSpoofer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				67AD7F612D83939400A16C77 /* Exceptions for "LocationSpoofer" folder in "LocationSpooferTests" target */,
+				67AD7F622D83939400A16C77 /* Exceptions for "LocationSpoofer" folder in "LocationSpooferUITests" target */,
+			);
 			path = LocationSpoofer;
 			sourceTree = "<group>";
 		};
@@ -399,6 +420,7 @@
 				DEVELOPMENT_TEAM = K2UMYETYC8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +450,7 @@
 				DEVELOPMENT_TEAM = K2UMYETYC8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

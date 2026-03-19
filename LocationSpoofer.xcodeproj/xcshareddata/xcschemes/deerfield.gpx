@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1"
+  version="1.1" 
+  creator="gpx-poi.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 https://www.topografix.com/GPX/1/1/gpx.xsd">
+  <wpt lat="26.299209" lon="-80.082179">
+    <time>2025-03-13T21:45:42Z</time>
+  </wpt>
+</gpx>
